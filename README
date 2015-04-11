@@ -1,4 +1,14 @@
+This code base will support hexapods on the more modern BotBoarduino/SSC-32 platform. Thank you to Kurt (KurtE) for the doing the
+initial port from Basic Stamp to Arduino. The gait used for the Apod gait is derived from the phoenix gait. 
+
+Multi-leg Platform: A-Pod 24 DoF Hexapod
+Recommended Microcontroller: BotBoarduino
+Recommended Servo Controller: SSC-32 Channel Servo Controller
+Currently Supported Control Systems:
+	- Xbee
+	- Lynxmotion PS2 - V3
+
 In order to compile this code in Arduino, you will need to install this library:
 http://www.billporter.info/2010/06/05/playstation-2-controller-arduino-library-v1-0/
 
-Please make sure you add the releval fiels in your /Arduino/libraries/ folder.
+
